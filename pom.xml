@@ -4,6 +4,10 @@
   <artifactId>DessResort</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <packaging>war</packaging>
+  <properties>
+    <sonar.sources>pom.xml,src/admin,src/bean,src/user,src/test</sonar.sources>
+    <sonar.tests></sonar.tests>
+  </properties>
   <build>
    <pluginManagement>
       <plugins>
