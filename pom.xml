@@ -27,7 +27,15 @@
     </dependency>
   </dependencies>
   <build>
-    <plugins>
+   <resources>
+      <resource>
+        <directory>src</directory>
+        <includes>
+          <include>Webcontent</include>
+        </includes>
+      </resource>
+    </resources> 
+   <plugins>
         <plugin>
             <groupId>org.apache.maven.plugins</groupId>
             <artifactId>maven-war-plugin</artifactId>
